@@ -6,3 +6,4 @@ spacy
 sweetviz
 pyspellchecker
 dill
+streamlit-aggrid
