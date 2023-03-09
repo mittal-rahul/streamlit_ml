@@ -1,0 +1,9 @@
+streamlit
+pandas
+sklearn
+numpy
+spacy
+sweetviz
+st_aggrid
+pyspellchecker
+dill
