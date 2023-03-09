@@ -51,15 +51,15 @@ if 'data_loaded' not in st.session_state:
             uploaded_file = st.file_uploader("Upload data for model training", type="csv")
             original_df = pd.DataFrame()
 
-            report = sv.analyze(original_df)
+            #report = sv.analyze(original_df)
             
-            report.show_html('analyze.html',open_browser = False)
+            #report.show_html('analyze.html',open_browser = False)
 
             #st.write(obj1)
             #components.html(str(obj1), width=1100, height=1200, scrolling=True)
-            with open('analyze.html') as html:
+            #with open('analyze.html') as html:
                 #st.write(html.read())
-                components.html(str(html.read()), width=1100, height=1200, scrolling=True)
+                #components.html(str(html.read()), width=1100, height=1200, scrolling=True)
 
             if uploaded_file is not None:
                 original_df = pd.read_csv(uploaded_file)
