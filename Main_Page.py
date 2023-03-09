@@ -11,7 +11,7 @@ import logging
 import spacy
 import numpy as np
 import datetime
-import sweetviz as sv
+#import sweetviz as sv
 import streamlit.components.v1 as components
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 
