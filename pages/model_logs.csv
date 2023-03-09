@@ -1,0 +1,2 @@
+main_model_name,main_vectorized_vocab_name,train_model_run_date,total_run_time,training_data_size,algorithm_used
+3_1_2023_16_24_lr_main_model.pkl,3_1_2023_16_24_main_vectorized_vocab.pkl,2023-03-01 16:24:17.737268,0 days 00:00:17.668921,6177,Logistic Regression
