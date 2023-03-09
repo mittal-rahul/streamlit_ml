@@ -7,3 +7,5 @@ sweetviz
 pyspellchecker
 dill
 streamlit-aggrid
+wordcloud
+scikit-learn
